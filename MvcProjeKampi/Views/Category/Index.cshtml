@@ -3,25 +3,47 @@
     Layout = null;
 }
 
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
 <h3>Mvc Kamp Tablo Ornegi = Kategori</h3>
 <br />
-<table>
+<table class="table table-hover">
     <tr>
         <th>ID</th>
         <th>Kategori Adi</th>
         <th>Aciklama</th>
         <th>Durum</th>
+        <th>Guncelle</th>
     </tr>
     <tr>
         <td>1</td>
         <td>Egitim</td>
         <td>Aciklama Yaptik</td>
         <td>True</td>
+        <td><button class="btn btn-success">Guncelle</button></td>
     </tr>
     <tr>
         <td>2</td>
         <td>Spor</td>
         <td>Aciklama Yapildi</td>
         <td>True</td>
+        <td><button class="btn btn-success">Guncelle</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Kitap</td>
+        <td>Aciklama Yapildi</td>
+        <td>True</td>
+        <td><button class="btn btn-success">Guncelle</button></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Sinema</td>
+        <td>Aciklama Bekleniyor</td>
+        <td>True</td>
+        <td><button class="btn btn-success">Guncelle</button></td>
     </tr>
 </table>
+<button class="btn btn-info">Yeni Kategori</button>
+<button class="btn btn-warning">Kategori Listesi</button>
+<button class="btn btn-danger">Kategori Aciklamalari</button>

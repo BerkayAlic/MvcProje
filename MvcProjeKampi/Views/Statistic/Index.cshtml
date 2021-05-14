@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <br />
+    <div class="row">
+
+        <div class="col-md-4">
+
+            <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                <div class="card-header">Mission-1</div>
+                <div class="card-body">
+                    <h5 class="card-title">Category Number</h5>
+                    <p class="card-text">@ViewBag.totalCategory</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                <div class="card-header">Mission-2</div>
+                <div class="card-body">
+                    <h5 class="card-title">Headings Number For Yazilim</h5>
+                    <p class="card-text">@ViewBag.yazilim</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Mission-3</div>
+                <div class="card-body">
+                    <h5 class="card-title">Writers Which Include "a"</h5>
+                    <p class="card-text">@ViewBag.yazar</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Mission-4</div>
+                <div class="card-body">
+                    <h5 class="card-title">Category Which Has Max Headings</h5>
+                    <p class="card-text">@ViewBag.max</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                <div class="card-header">Mission-5</div>
+                <div class="card-body">
+                    <h5 class="card-title">Difference</h5>
+                    <p class="card-text">@ViewBag.difference</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
